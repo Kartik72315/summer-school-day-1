@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+
+    <form>
+        Name: <input type="text" required><br><br>
+        Email: <input type="email" required><br><br>
+        Phone: <input type="tel" pattern="[0-9]{10}" required><br><br>
+
+        Message:<br>
+        <textarea required></textarea><br><br>
+
+        Contact Method:<br>
+        <input type="checkbox"> Email
+        <input type="checkbox"> Phone<br><br>
+
+        Inquiry Type:<br>
+        <input type="radio" name="type" required> General
+        <input type="radio" name="type"> Support<br><br>
+
+        Country:
+        <select required>
+            <option value="">Select</option>
+            <option>India</option>
+            <option>USA</option>
+        </select><br><br>
+
+        Date: <input type="date" required><br><br>
+        Range slider :<br>
+        <input type="range" name="satisfaction" min="1" max="10"><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

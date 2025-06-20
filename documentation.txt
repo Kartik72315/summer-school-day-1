@@ -1,0 +1,85 @@
+1. <!DOCTYPE html>
+   - Declares the document type and version (HTML5). It tells the browser how to read the file.
+
+2. <html> ... </html>
+   - The root element of every HTML page. All other elements go inside this tag.
+
+3. <head> ... </head>
+   - Contains meta information about the document, like the title, stylesheets, and scripts. This part is not shown on the page.
+
+4. <title> ... </title>
+   - Sets the title of the page, which appears on the browser tab.
+
+5. <body> ... </body>
+   - Everything you want to display on the webpage (text, images, links, etc.) goes inside this tag.
+
+6. <h1> to <h6>
+   - Heading tags. <h1> is the biggest (used for main titles), and <h6> is the smallest. These help structure your content.
+
+7. <p>
+   - Paragraph tag. It’s used for writing blocks of text.
+
+8. <a href="...">
+   - Anchor tag. Used to create hyperlinks. The `href` attribute defines the URL.
+
+9. <img src="..." alt="...">
+   - Image tag. `src` is the image file path, and `alt` provides a description if the image doesn't load.
+
+10. <ul>
+    - Unordered list. Creates a bulleted list.
+
+11. <ol>
+    - Ordered list. Creates a numbered list.
+
+12. <li>
+    - List item. Used inside <ul> or <ol> to define each list item.
+
+13. <nav> ... </nav>
+    - Used to group navigation links, like menus. Helps with site structure and accessibility.
+
+14. <table> ... </table>
+    - Creates a table layout.
+
+15. <tr>
+    - Table row. Groups table cells horizontally.
+
+16. <th>
+    - Table heading cell. Usually bold and centered.
+
+17. <td>
+    - Table data cell. Regular cell used inside a row.
+
+18. <form> ... </form>
+    - Starts a form used to collect user input.
+
+19. <input>
+    - A flexible form element that creates fields:
+      • type="text" – For single-line text
+      • type="email" – For email (checks format)
+      • type="tel" – For phone number (can add pattern)
+      • type="date" – For date selection
+      • type="range" – Slider for number range
+      • type="checkbox" – Multiple options
+      • type="radio" – One option only
+      • type="submit" – Button to submit form
+
+20. <textarea>
+    - A bigger input box for longer messages or feedback.
+
+21. <select> ... </select>
+    - Dropdown menu. Users can choose from a list of options.
+
+22. <option>
+    - A single choice inside a <select> dropdown.
+
+23. <label>
+    - Adds a label to a form input. Makes forms more user-friendly and accessible.
+
+24. <br>
+    - Line break. Moves the text to the next line.
+
+25. <hr>
+    - Horizontal line. Used to visually divide sections.
+
+26. <!-- Comment -->
+    - Adds notes inside the code that don't show up on the page. Useful for reminders or explanations.
